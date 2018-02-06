@@ -8,6 +8,7 @@ body{
 }
 #container{
   background-color: rgba(41, 114, 136, 0.3);
+  background-repeat: repeat;
   max-width: 960px;
   display: block;
   margin:auto;

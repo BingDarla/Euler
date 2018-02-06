@@ -26,5 +26,31 @@ $(document).ready(function(){
     let result = s5(num);
     $('#ans5').text(result);
   });
+  $('#num6').click(function(){
+    const num = $('#input6').val();
+    let result = s6(num);
+    $('#ans6').text(result);
+  });
+  $('#num7').click(function(){
+    const num = $('#input7').val();
+    let result = s7(num);
+    $('#ans7').text(result);
+  });
+  $('#num8').click(function(){
+    const num = $('#input8').val();
+    let result = s8(num);
+    $('#ans8').text(result);
+  });
+  $('#num9').click(function(){
+    const num = $('#input9').val();
+    let result = s9(num);
+    $('#ans9').text(result);
+  });
+  $('#num10').click(function(){
+    const num = $('#input10').val();
+    let result = s10(num);
+    $('#ans10').text(result);
+  });
+
 
 })
