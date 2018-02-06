@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+/* *{
+  border:1px solid white;
+} */
+body{
+  background-image: url('../assets/bk.jpg');
+}
+#container{
+  background-color: rgba(41, 114, 136, 0.3);
+  max-width: 960px;
+  display: block;
+  margin:auto;
+  color:white;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+h2{
+  text-align: center;
+}
+.answers{
+  margin-top: -20px;
+}
+.answer {
+  display:inline-block;
+  margin-left: 5px;
+  font-weight: bold;:
+}
+span{
+  color:red;
+}
