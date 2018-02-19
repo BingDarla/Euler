@@ -186,7 +186,6 @@ const s8 = function(num){
       j--;
       console.log(`a i j ${a},${i},${j}`);
     }
-    console.log(a);
     if (a>max){
       max = a;
     }
@@ -215,7 +214,6 @@ const s10 = function(num){
   let n=+num;
   let result=0;
   let primes = primeList(num);
-  console.log(primes);
   for (let i= 0; i<primes.length;i++){
     result+=primes[i];
   }
