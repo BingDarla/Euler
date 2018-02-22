@@ -31,3 +31,17 @@ h2{
 span{
   color:red;
 }
+footer{
+  display: block;
+  margin:auto;
+  margin-left: 30px;
+  font-size: 20px;
+}
+footer a{
+  color: white;
+  text-decoration: none;
+  background-color: rgba(185, 138, 53, 0.3);
+}
+footer a:hover{
+  background-color: rgba(185, 138, 53, 0.8);
+}

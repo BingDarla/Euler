@@ -55,6 +55,16 @@ $(document).ready(function(){
     let result = s11(num);
     $('#ans11').text(result);
   });
+  $('#num12').click(function(){
+    const num = $('#input12').val();
+    let result = s12(num);
+    $('#ans12').text(result);
+  });
+  $('#num13').click(function(){
+    const num = $('#input12').val();
+    let result = s13(num);
+    $('#ans13').text(result);
+  });
 
 
 })
