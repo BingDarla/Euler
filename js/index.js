@@ -51,6 +51,10 @@ $(document).ready(function(){
     let result = s10(num);
     $('#ans10').text(result);
   });
+  $('#num11').click(function(){
+    let result = s11(num);
+    $('#ans11').text(result);
+  });
 
 
 })
