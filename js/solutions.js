@@ -59,11 +59,12 @@ const s3 = function(num) {
   let n = +num;
   if (n <= 0)
     return 0;
-  let primeMax = Math.floor(Math.sqrt(n));
-  let primes = primeList(primeMax);
+  // let primeMax = Math.floor(Math.sqrt(n));
+  let primes = primeList(n);
   console.log(primes);
   for (let i = primes.length; i >= 0; i--) {
     if (n % primes[i] == 0) {
+      console.log(i);
       return primes[i];
     }
   }
