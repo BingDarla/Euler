@@ -404,3 +404,45 @@ const s13 = function(){
   }
   return (total.toString().slice(0,1)+total.toString().slice(2,11));
 }
+
+const s14 = function(num){
+  const n = +num;
+  let counterMax=0;
+  let counter,a;
+  let result;
+  for (let i = 1; i<=n; i++){
+    //get the terms for each number
+    console.log(i);
+    counter = 0;
+    a = i;
+    while(a>1){
+      if (a%2==0){
+        a=a/2;
+        counter+=1;
+      }
+      else {
+        a = 3*a+1;
+        counter+=1;
+      }
+    }
+    result  = counterMax>counter ? result:i;
+    counterMax = counterMax>counter ? counterMax:counter;
+
+  }
+  return result;
+}
+
+const s15 = function(num){
+  const n = +num;
+  console.log(n);
+  let comb2N = 1;
+  let combN = 1;
+  // math model : (2n)!/n!/n!
+  for (let i=n; i>1;i--){
+    combN*=i;
+  }
+  for (let j = 2*n; j>1; j--){
+    comb2N *=j;
+  }
+  return Math.floor(comb2N/(combN*combN));
+}

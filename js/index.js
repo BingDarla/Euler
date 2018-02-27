@@ -52,7 +52,7 @@ $(document).ready(function(){
     $('#ans10').text(result);
   });
   $('#num11').click(function(){
-    let result = s11(num);
+    let result = s11();
     $('#ans11').text(result);
   });
   $('#num12').click(function(){
@@ -61,10 +61,15 @@ $(document).ready(function(){
     $('#ans12').text(result);
   });
   $('#num13').click(function(){
-    const num = $('#input12').val();
-    let result = s13(num);
+    let result = s13();
     $('#ans13').text(result);
   });
+  $('#num15').click(function(){
+    const num = $('#input15').val();
+    let result = s15(num);
+    $('#ans15').text(result);
+  });
+
 
 
 })
