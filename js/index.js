@@ -64,6 +64,11 @@ $(document).ready(function(){
     let result = s13();
     $('#ans13').text(result);
   });
+  $('#num14').click(function(){
+    const num = $('#input14').val();
+    let result = s14(num);
+    $('#ans14').text(result);
+  });
   $('#num15').click(function(){
     const num = $('#input15').val();
     let result = s15(num);
